@@ -1,7 +1,8 @@
 import './App.css'
 import { Routes, Route} from 'react-router-dom';
 import {ROUTES} from './helpers/pathRouters';
-import Navbar from './components/navbar/navbar';
+import Navbar from './components/Navbar/Navbar';
+import { Home } from './views/home/Home';
 function App() {
 
   return (
@@ -9,7 +10,7 @@ function App() {
       <Navbar/>
       <Routes>
         {/* //las rutas hay que parametrizarlas. Carpeta helpers, archivo RoutesPath, objeto ROUTES.HOME */}
-        <Route path={ROUTES.HOME} element={<Notes />}></Route>
+        <Route path={ROUTES.HOME} element={<Home/>}></Route>
       </Routes>  
     </>
   )
