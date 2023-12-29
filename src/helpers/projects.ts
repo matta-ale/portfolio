@@ -1,16 +1,7 @@
-import {
-  // faNode,
-  // faReact,
-  // faPython,
-  // faJs,
-  IconDefinition,
-} from '@fortawesome/free-brands-svg-icons';
-
-// logos urls
 
 const javascript = 'https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png'
 const python = 'https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png'
-const typescript = 'https://cdn.jsdelivr.net/npm/programming-languages-logos/src/typescript/typescript.png'
+// const typescript = 'https://cdn.jsdelivr.net/npm/programming-languages-logos/src/typescript/typescript.png'
 const react = 'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png'
 const node = 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/885px-Node.js_logo.svg.png'
 export interface propsInterface {
