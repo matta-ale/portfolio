@@ -1,17 +1,12 @@
-import {
-  faGithub,
-  faLinkedin,
-  faWhatsapp,
-} from '@fortawesome/free-brands-svg-icons';
-import { faFile, faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import React from 'react';
 import aboutImage from '../../assets/img/aboutImage1.jpg';
+import MediaLinks from '../../components/MediaLinks/MediaLinks';
 
 const About = () => {
   return (
     <div className='full-height  flex justify-center no-scrollbar'>
-      <div className='w-[100%] max-w-[1200px] h-auto bg-white z-49 pb-40'>
+      <div className='w-[100%] max-w-[1200px] h-auto bg-white z-49 pb-10'>
         <div className='w-full min-h-min'>
           <div className=' bg-white mt-48 space-x-20 mx-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2'>
             <div className='bg-white font-roboto'>
@@ -49,13 +44,7 @@ const About = () => {
                   organizations achieve their goals.
                 </h2>
                 <br />
-                <div className='text-3xl text-gray-500 space-x-6'>
-                  <FontAwesomeIcon icon={faGithub} />
-                  <FontAwesomeIcon icon={faLinkedin} />
-                  <FontAwesomeIcon icon={faFile} />
-                  <FontAwesomeIcon icon={faEnvelope} />
-                  <FontAwesomeIcon icon={faWhatsapp} />
-                </div>
+                <MediaLinks/>
               </div>
               <br />
               <br />
@@ -85,7 +74,7 @@ const About = () => {
               <h2 className='text-2xl font-semibold text-black'>My skills</h2>
               <br />
               <br />
-              <div className='w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-20 '>
+              <div className='w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-x-28 gap-y-14 '>
                 <div>
                   <h2 className='text-black font-semibold text-lg'>
                     Tech skills:
