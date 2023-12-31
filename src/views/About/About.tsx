@@ -78,55 +78,63 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className='font-roboto w-full'>
-          <div>  
-          <h2 className='text-2xl font-semibold text-black'>My skills</h2>
-          <br />
-          <div className='flex justify-between w-full'>
-            <div>
-              <h2 className='text-black font-semibold text-lg'> Tech skills</h2>
-              <div className='flex justify-between'>
-                <ul className='list-disc text-black ml-6'>
-                  <li>Javascript</li>
-                  <li>Typescript</li>
-                  <li>React</li>
-                  <li>Redux</li>
-                  <li>Tailwind</li>
-                </ul>
-                <ul className='list-disc text-black ml-6'>
-                  <li>Nodejs</li>
-                  <li>Express</li>
-                  <li>PostgreSQL</li>
-                  <li>Python</li>
-                  <li>Github Flow</li>
-                </ul>
-              </div>
-            </div>
-            <div className='flex justify-between'>
-              <div>
-                <h2 className='text-black font-semibold text-lg'>
-                  Soft skills
-                </h2>
-                <ul className='list-disc text-black ml-6'>
-                  <li>Agile methodology - SCRUM</li>
-                  <li>Team work</li>
-                  <li>Team leadership</li>
-                  <li>Capital markets and cryptocurrencies</li>
-                  <li>Supply Chain and production processes</li>
-                </ul>
-              </div>
+        <br />
+        <div className=' bg-white space-x-20 mx-20'>
+          <div className='font-roboto w-full'>
+            <div className='w-full'>
+              <h2 className='text-2xl font-semibold text-black'>My skills</h2>
               <br />
-              <div>
-                <h2 className='text-black font-semibold text-lg'>Languages:</h2>
-                <br />
-                <ul className='list-disc text-black ml-6'>
-                  <li>English: C1</li>
-                  <li>Spannish: native</li>
-                </ul>
+              <br />
+              <div className='w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-20 '>
+                <div>
+                  <h2 className='text-black font-semibold text-lg'>
+                    Tech skills:
+                  </h2>
+                  <br />
+                  <div className='flex justify-between'>
+                    <ul className='list-disc text-gray-400 ml-6'>
+                      <li>Javascript</li>
+                      <li>Typescript</li>
+                      <li>React</li>
+                      <li>Redux</li>
+                      <li>Tailwind</li>
+                      <li>Nodejs</li>
+                      <li>Express</li>
+                      <li>PostgreSQL</li>
+                      <li>Python</li>
+                      <li>Github Flow</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div>
+                  <h2 className='text-black font-semibold text-lg'>
+                    Soft skills:
+                  </h2>
+                  <br />
+                  <ul className='list-disc text-gray-400 ml-6'>
+                    <li>Agile methodology - SCRUM</li>
+                    <li>Team work</li>
+                    <li>Team leadership</li>
+                    <li>Capital markets and cryptocurrencies</li>
+                    <li>Supply Chain and production processes</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <div>
+                    <h2 className='text-black font-semibold text-lg'>
+                      Languages:
+                    </h2>
+                    <br />
+                    <ul className='list-disc text-gray-400 ml-6'>
+                      <li>English: Advanced (C1)</li>
+                      <li>Spannish: native</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
-            <div className='text-3xl text-gray-500 space-x-6 flex flex-col justify-between h-56 items-center'></div>
-          </div>
           </div>
         </div>
       </div>
