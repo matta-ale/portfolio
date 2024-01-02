@@ -53,7 +53,7 @@ const About = () => {
               className='relative overflow-hidden transform rotate-3'
               style={{
                 maxWidth: '420px',
-                maxHeight: '420px',
+                maxHeight: '590px',
                 width: '100%',
                 height: 'auto',
                 minWidth: '380px',
@@ -80,7 +80,7 @@ const About = () => {
                     Tech skills:
                   </h2>
                   <br />
-                  <div className='flex justify-between'>
+                  <div className='flex justify-between font-sans'>
                     <ul className='list-disc text-gray-400 ml-6'>
                       <li>Javascript</li>
                       <li>Typescript</li>
@@ -97,11 +97,11 @@ const About = () => {
                 </div>
 
                 <div>
-                  <h2 className='text-black font-semibold text-lg'>
+                  <h2 className='text-black font-semibold text-lg '>
                     Soft skills:
                   </h2>
                   <br />
-                  <ul className='list-disc text-gray-400 ml-6'>
+                  <ul className='list-disc text-gray-400 ml-6 font-sans'>
                     <li>Agile methodology - SCRUM</li>
                     <li>Team work</li>
                     <li>Team leadership</li>
@@ -116,7 +116,7 @@ const About = () => {
                       Languages:
                     </h2>
                     <br />
-                    <ul className='list-disc text-gray-400 ml-6'>
+                    <ul className='list-disc text-gray-400 ml-6 font-sans'>
                       <li>English: Advanced (C1)</li>
                       <li>Spannish: native</li>
                     </ul>

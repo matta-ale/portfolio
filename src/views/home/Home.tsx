@@ -17,7 +17,7 @@ export const Home = () => {
         </div>
       </div>
       <div className='full-height  flex justify-center no-scrollbar bg-gray-100 w-full'>
-        <Projects />
+        <Projects  />
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ import { Projects } from '../../components/Projects/Projects';
 const ProjectPage = () => {
   return (
     <div className='full-height  flex justify-center no-scrollbar'>
-      <div className='w-[100%] max-w-[1200px] h-auto bg-white z-49 pb-40'>
+      <div className='w-[100%] max-w-[1200px] h-auto bg-white z-49'>
         <div className='w-full min-h-min'>
           <div className='bg-white font-roboto px-20 mt-40 mb-20'>
             <h1 className='text-5xl font-semibold'>My projects</h1>
