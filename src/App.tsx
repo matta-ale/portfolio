@@ -6,7 +6,7 @@ import Footer from './components/Footer/Footer';
 import ProjectPage from './views/ProjectPage.tsx/ProjectPage';
 import About from './views/About/About';
 import Contact from './views/Contact/Contact';
-import Navbar from './components/Navbar/Navbar';
+import Navbar from './components/navbar/Navbar';
 function App() {
 
   return (
