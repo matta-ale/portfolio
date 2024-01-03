@@ -1,4 +1,3 @@
-import React from 'react';
 import HomeAbout from '../../components/HomeAbout/HomeAbout';
 import { Projects } from '../../components/Projects/Projects';
 

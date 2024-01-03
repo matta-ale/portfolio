@@ -1,4 +1,3 @@
-import React from 'react';
 import aboutImage from '../../assets/img/aboutImage2.jpg';
 import MediaLinks from '../MediaLinks/MediaLinks';
 

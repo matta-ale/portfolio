@@ -5,7 +5,6 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import { faFile, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React from 'react';
 
 const MediaLinks = () => {
   return (
