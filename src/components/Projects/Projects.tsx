@@ -1,4 +1,3 @@
-import React from 'react'
 import { projects} from '../../helpers/projects'
 import Project from '../Project/Project'
 
