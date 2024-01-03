@@ -7,6 +7,7 @@ import ProjectPage from './views/ProjectPage.tsx/ProjectPage';
 import About from './views/About/About';
 import Contact from './views/Contact/Contact';
 import Navbar from './components/Navbar/Navbar';
+
 function App() {
 
   return (
