@@ -28,34 +28,50 @@ const Contact = () => {
               </h2>
               <br />
               <br />
-              <div className='text-3xl text-gray-500 space-x-6 space-y-2 flex flex-col items-start w-full'>
-                <div className='flex items-center space-x-3'>
-                  <a href='https://github.com/matta-ale'>
+              <div className='text-1xl text-gray-500 space-x-6 space-y-2 flex flex-col items-start w-full'>
+                <div className='my-1 flex items-center h-6'>
+                  <a
+                    href='https://github.com/matta-ale'
+                    className='flex items-center space-x-3'
+                  >
                     <FontAwesomeIcon icon={faGithub} className='ml-6 w-5' />
+                    <h2 className='text-sm font-semibold'>
+                      Follow on Github
+                    </h2>
                   </a>
-                  <h2 className='text-base font-semibold'>Follow on Github</h2>
                 </div>
-                <div className='flex items-center space-x-3'>
-                  <a href='https://www.linkedin.com/in/alexis-mattaruco-64037b231/'>
+                <div className='my-1 flex items-center h-6'>
+                  <a
+                    href='https://www.linkedin.com/in/alexis-mattaruco-64037b231/'
+                    className='flex items-center space-x-3'
+                  >
                     <FontAwesomeIcon icon={faLinkedin} className='w-5' />
+                    <h2 className='text-sm font-semibold'>
+                      Follow on Linkedin
+                    </h2>
                   </a>
-                  <h2 className='text-base font-semibold'>
-                    Follow on Linkedin
-                  </h2>
                 </div>
-                <div className='flex items-center space-x-3'>
-                  <a href='mailto:matta.ale@gmail.com?subject=Contact&body=Hello,%20i%27m%20interested%20in%20getting%20in%20touch%20with%20you.'>
+                <div className='my-1 flex items-center h-6'>
+                  <a
+                    href='mailto:matta.ale@gmail.com?subject=Contact&body=Hello,%20i%27m%20interested%20in%20getting%20in%20touch%20with%20you.'
+                    className='flex items-center space-x-3'
+                  >
                     <FontAwesomeIcon icon={faEnvelope} className='w-5' />
+                    <h2 className='text-sm font-semibold'>
+                      Send me an e-mail
+                    </h2>
                   </a>
-                  <h2 className='text-base font-semibold'>Send me an e-mail</h2>
                 </div>
-                <div className='flex items-center space-x-3'>
-                  <a href='https://wa.me/543416246433'>
+                <div className='my-1 flex items-center h-6'>
+                  <a
+                    href='https://wa.me/543416246433'
+                    className='flex items-center space-x-3'
+                  >
                     <FontAwesomeIcon icon={faWhatsapp} className='w-5' />
+                    <h2 className='text-sm font-semibold'>
+                      Text me through Whatsapp
+                    </h2>
                   </a>
-                  <h2 className='text-base font-semibold'>
-                    Text me through Whatsapp
-                  </h2>
                 </div>
               </div>
               <br />
