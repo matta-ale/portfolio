@@ -32,6 +32,7 @@ const Contact = () => {
                   <a
                     href='https://github.com/matta-ale'
                     className='flex items-center space-x-3'
+                    target='_blank'
                   >
                     <FontAwesomeIcon icon={faGithub} className='ml-6 w-5' />
                     <h2 className='text-sm font-semibold'>
@@ -43,6 +44,7 @@ const Contact = () => {
                   <a
                     href='https://www.linkedin.com/in/alexis-mattaruco-64037b231/'
                     className='flex items-center space-x-3'
+                    target='_blank'
                   >
                     <FontAwesomeIcon icon={faLinkedin} className='w-5' />
                     <h2 className='text-sm font-semibold'>
@@ -54,6 +56,7 @@ const Contact = () => {
                   <a
                     href='mailto:matta.ale@gmail.com?subject=Contact&body=Hello,%20i%27m%20interested%20in%20getting%20in%20touch%20with%20you.'
                     className='flex items-center space-x-3'
+                    target='_blank'
                   >
                     <FontAwesomeIcon icon={faEnvelope} className='w-5' />
                     <h2 className='text-sm font-semibold'>
@@ -65,10 +68,11 @@ const Contact = () => {
                   <a
                     href='https://wa.me/543416246433'
                     className='flex items-center space-x-3'
+                    target='_blank'
                   >
                     <FontAwesomeIcon icon={faWhatsapp} className='w-5' />
                     <h2 className='text-sm font-semibold'>
-                      Text me through Whatsapp 543416246433
+                      Whatsapp 543416246433
                     </h2>
                   </a>
                 </div>

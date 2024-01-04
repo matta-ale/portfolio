@@ -7,7 +7,7 @@ const Project = (props: propsInterface) => {
 
   return (
     <>
-      <a href={projectLink} className='flex flex-col justify-between'>
+      <a href={projectLink} className='flex flex-col justify-between' target='_blank'>
         <div>
           <div className='font-roboto hover:rounded-2xl hover:bg-gray-100 p-4 '>
             <div className='h-60'>
