@@ -12,7 +12,7 @@ const Contact = () => {
       <div className='w-[100%] max-w-[1200px] h-auto bg-white z-49'>
         <div className='w-full min-h-min'>
           <div className='bg-white font-roboto px-20 mt-40 mb-20'>
-            <h1 className='text-5xl font-semibold w-1/2'>
+            <h1 className='text-5xl font-semibold md:w1/2'>
               Let's Get in Touch: Ways to Connect with Me
             </h1>
             <br />
@@ -68,7 +68,7 @@ const Contact = () => {
                   >
                     <FontAwesomeIcon icon={faWhatsapp} className='w-5' />
                     <h2 className='text-sm font-semibold'>
-                      Text me through Whatsapp
+                      Text me through Whatsapp 543416246433
                     </h2>
                   </a>
                 </div>
