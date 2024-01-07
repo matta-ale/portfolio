@@ -3,14 +3,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { propsInterface } from '../../helpers/projects';
 
 const Project = (props: propsInterface) => {
-  const { icons, name, description, projectLink, githubLink } = props;
+  const { icons, name, description, projectLink, githubLink, demoData } = props;
 
   return (
     <>
       <a href={projectLink} className='flex flex-col justify-between' target='_blank'>
         <div>
-          <div className='font-roboto hover:rounded-2xl hover:bg-gray-100 p-4 '>
-            <div className='h-60'>
+          <div className='font-roboto hover:rounded-2xl hover:bg-gray-100 p-4'>
+            <div className=' h-[300px]'>
               <div className='flex space-x-4'>
                 {icons.map((icon, index) => {
                   return (
@@ -24,6 +24,9 @@ const Project = (props: propsInterface) => {
               <br />
               <p className='text-gray-400 font-sans text-justify'>
                 {description}
+              </p>
+              <p className='text-gray-400 font-sans text-justify whitespace-pre text-sm'>
+                {demoData}
               </p>
             </div>
             <br />
