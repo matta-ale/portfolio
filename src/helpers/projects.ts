@@ -24,7 +24,7 @@ export const projects = [
   {
     icons: [react, node, javascript],
     name: 'Notes App',
-    description: 'An app to take notes and manage tags and filters. I manages different users, notes and tags keeping the data in a postgresql database',
+    description: 'An app to take notes and manage tags and filters. I manages different users, notes and tags keeping the data in a postgresql database. \n\n Demo account: \n User: demo_account \n Password: Demopassword1! ',
     projectLink: 'http://3.140.216.125/',
     githubLink: 'https://github.com/matta-ale/notes-app-public-repo',
   },
