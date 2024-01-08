@@ -9,7 +9,7 @@ export const Home = () => {
       for (let i = 0; i < 20; i++) {
         try {
           const response = await axios.get(
-            'https//rodarrent-main-server.onrender.com/hc'
+            'https://rodarrent-main-server.onrender.com/hc'
           );
           console.log(response.data);
         } catch (error) {
