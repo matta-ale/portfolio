@@ -1,7 +1,18 @@
+import { useEffect } from 'react';
 import HomeAbout from '../../components/HomeAbout/HomeAbout';
 import { Projects } from '../../components/Projects/Projects';
+import axios from 'axios'
 
 export const Home = () => {
+  
+  useEffect(() => {
+    const healthCheck = async () => {
+      const response= await axios.get('https//rodarrent-main-server.onrender.com/hc')
+      console.log(response.data);
+    }
+    healthCheck()
+  },[])
+  
   return (
     <div className='w-full h-full bg-gray-100'>
       <div className='full-height  flex justify-center no-scrollbar'>

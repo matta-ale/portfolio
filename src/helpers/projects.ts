@@ -23,7 +23,7 @@ export const projects = [
     name: 'Rodarrent car rental',
     description:
       'This app was made for a car rental company in order to manage customers and reservations. It features Google authentication and payment integration with Mercado Pago API',
-    demoData: '\nLogin as customer: use your google account\nAs admin (check admin dashboard): \nEmail: admin@admin.com \nPassword: Demopassword1!',
+    demoData: '\nLogin as customer: use your google account\nAs admin (check admin dashboard): \nEmail: admin@admin.com \nPassword: Admin2023',
     projectLink: 'https://rodarrent.vercel.app/',
     githubLink: 'https://github.com/matta-ale/RodarRent-backend',
   },
