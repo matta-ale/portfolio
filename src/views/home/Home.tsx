@@ -1,18 +1,28 @@
 import { useEffect } from 'react';
 import HomeAbout from '../../components/HomeAbout/HomeAbout';
 import { Projects } from '../../components/Projects/Projects';
-import axios from 'axios'
+import axios from 'axios';
 
 export const Home = () => {
-  
   useEffect(() => {
     const healthCheck = async () => {
-      const response= await axios.get('https//rodarrent-main-server.onrender.com/hc')
-      console.log(response.data);
-    }
-    healthCheck()
-  },[])
-  
+      for (let i = 0; i < 20; i++) {
+        try {
+          const response = await axios.get(
+            'https//rodarrent-main-server.onrender.com/hc'
+          );
+          console.log(response.data);
+        } catch (error) {
+          throw new Error('Database suspended');
+        }
+      }
+      setTimeout(() => {
+        console.log('Waiting');
+      },3000)
+    };
+    healthCheck();
+  }, []);
+
   return (
     <div className='w-full h-full bg-gray-100'>
       <div className='full-height  flex justify-center no-scrollbar'>
@@ -27,7 +37,7 @@ export const Home = () => {
         </div>
       </div>
       <div className='full-height  flex justify-center no-scrollbar bg-gray-100 w-full'>
-        <Projects  />
+        <Projects />
       </div>
     </div>
   );
