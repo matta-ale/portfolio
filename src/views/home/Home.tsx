@@ -12,14 +12,20 @@ export const Home = () => {
             'https://rodarrent-main-server.onrender.com/hc'
           );
           console.log(response.data);
-        } catch (error) {
-          throw new Error('Database suspended');
+        } catch (error: unknown) {
+          if (axios.isAxiosError(error)) {
+            console.error('Axios error in health check:', error.message);
+          } else {
+            console.error('Non-Axios error in health check:', error);
+          }
+        } finally {
+          // Always wait for 3 seconds before the next iteration
+          await new Promise(resolve => setTimeout(resolve, 3000));
         }
       }
-      setTimeout(() => {
-        console.log('Waiting');
-      },3000)
+      console.log('Health check completed');
     };
+  
     healthCheck();
   }, []);
 
